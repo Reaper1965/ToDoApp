@@ -1,4 +1,3 @@
-// src/components/AddTodoForm.js
 import React, { useState } from 'react';
 
 const AddTodoForm = ({ addTodo }) => {
@@ -21,12 +20,11 @@ const AddTodoForm = ({ addTodo }) => {
         value={inputValue}
         onChange={handleChange}
         placeholder="Add new task..."
-       className='form-control' required/>
+       className='form-control bg-warning' required/>
        <br></br>
        <div className='d-flex justify-content-center'>
        <button type="submit" className='btn btn-primary'>Add Task</button>
        </div>
-      
     </form>
   );
 };

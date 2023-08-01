@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import TodoItem from './TodoItem';
 
@@ -17,7 +16,7 @@ const TodoList = ({ todos, toggleComplete, deleteTodo }) => {
     <div>
       <div>
         <label>
-          Show Completed:
+          Show Completed:&nbsp;
           <input
             type="checkbox"
             checked={showCompleted}
